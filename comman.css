@@ -511,3 +511,25 @@ footer {
 .cta-button-white:hover {
     transform: translateY(-3px);
 }
+  .hamburger-top,
+  .hamburger-middle,
+  .hamburger-bottom {
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: black; /* Make them visible */
+    transition: all 0.3s ease-in-out;
+  }
+
+  .hamburger-top {
+    top: 0;
+  }
+
+  .hamburger-middle {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .hamburger-bottom {
+    bottom: 0;
+  }
